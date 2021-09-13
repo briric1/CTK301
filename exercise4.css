@@ -1,0 +1,36 @@
+main{
+  background-color: #75b3c8;
+}
+h1{
+  color: white;
+}
+a{
+  color: green;
+  text-decoration: none;
+}
+a:hover{
+  color: red;
+  text-decoration: underline;
+}
+#pompeii1{
+  color: blue;
+}
+#pompeii2{
+  background-color:yellow;
+}
+.orangetext{
+  color: orange;
+}
+#redbody{
+  color: red;
+}
+#fathersday{
+  color: yellow;
+  background-color: green;
+}
+#greenback{
+  background-color: #7add5a;
+}
+#purpletext{
+  color: purple;
+}
