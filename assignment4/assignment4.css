@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  background-image: url(phonegirl.jpg);
+}
+h1 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+h2 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+h3 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+.textcenter {
+  text-align: center;
+}
+.textjustify {
+  text-align: justify;
+}
+.imgbox {
+  border: 10px solid #000000;
+  padding: 10px;
+  background-color: white;
+}

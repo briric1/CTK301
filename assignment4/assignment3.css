@@ -1,0 +1,42 @@
+h1 {
+  color: white;
+}
+header {
+  background-color: black;
+}
+a {
+  color: red;
+}
+a:hover {
+  color: yellow;
+}
+a:visited {
+  color: green;
+}
+h2 {
+  color: blue;
+  background-color: yellow;
+}
+.purply {
+  color: purple;
+}
+#divcolor {
+  color: white;
+  background-color: #104752;
+}
+.orangetext {
+  color: orange;
+}
+#pinkiness {
+  color: #ff9c91;
+  background-color: #3b3b3b;
+}
+#greenback {
+  background-color: #a7ff7a;
+}
+.redtext {
+  color: red;
+}
+footer {
+  background-color: #acedfa;
+}
