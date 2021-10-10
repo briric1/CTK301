@@ -1,0 +1,107 @@
+body {
+  background-color: #bdbdbd;
+}
+#wrapper {
+  margin: 1em auto;
+  padding: 0px;
+  width: 960px;
+  border: 4px solid blue;
+  background-color: white;
+}
+.bluetop {
+  background-image: linear-gradient(#709dff, blue);
+}
+header {
+  padding: 1px 0px 1px 1em;
+  margin: 0;
+}
+h1 a {
+  color: #bddfff;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+h1 a:hover {
+  color: yellow;
+}
+nav {
+  padding: 1px;
+  margin: 0;
+  background-color: blue;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  width: 236px;
+  display: inline-block;
+  margin: 0px;
+}
+
+nav li a {
+  display: block;
+  border: 0px solid black;
+  padding: 1em;
+  color: #bddfff;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+nav li a:hover {
+  background-color: green;
+  color: yellow;
+}
+#invis a {
+  color: #0553ff;
+}
+#invis a:hover {
+  color: green;
+}
+main {
+  margin: 28px;
+}
+h2 {
+  color: blue;
+  border-bottom: 3px solid blue;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+#parag1 {
+  font-weight: bold;
+  text-align: justify;
+}
+main img {
+
+  border: 4px solid blue;
+
+}
+#Flashes {
+  float: left;
+  margin: 0px 1em 24px 0px;
+}
+#Tables {
+  float: right;
+  margin: 0px 0px 24px 1em;
+}
+#Crash {
+  margin: 0px 18px;
+}
+main a {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+main a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+footer {
+  background-color: red;
+  padding: 8px;
+  border-top: 4px solid blue;
+}
