@@ -66,10 +66,11 @@ main #aboutvid {
 }
 h2 {
   display: inline-block;
-  font: 56px Georgia;
+  font: 56px Helvetica, Arial, sanserif;
   text-shadow: 2px 2px #BFA194;
   border-bottom: 3px solid #BFA194;
   font-weight: bold;
+  text-transform: uppercase;
 }
 #abouthead {
   padding: 0 24px;
@@ -77,7 +78,8 @@ h2 {
 }
 #abouth3 {
   display: inline-block;
-  font: 32px Georgia;
+  font: 32px Helvetica, Arial, sanserif;
+  text-transform: uppercase;
   text-shadow: 2px 2px #BFA194;
   border-bottom: 3px solid #BFA194;
   padding: 0 24px;
@@ -87,7 +89,8 @@ h2 {
 }
 .otherh3 {
   display: inline-block;
-  font: 32px Georgia;
+  font: 32px Helvetica, Arial, sanserif;
+  text-transform: uppercase;
   text-shadow: 2px 2px #BFA194;
   border-bottom: 2px solid #BFA194;
   padding: 0 12px;
@@ -102,6 +105,9 @@ h2 {
   text-indent: 50px;
   line-height: 135%;
 }
+#aboutchunk {
+  text-indent: 0;
+}
 #portrait {
   width: 20%;
   height: auto;
@@ -109,8 +115,8 @@ h2 {
   padding: 0;
   border: 2px solid black;
   box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 5px;
-  margin: 0 144px 16px 24px;
+  border-radius: 16px;
+  margin: 0 134px 16px 24px;
 }
 #vidhead {
   padding: 0 24px;
@@ -216,6 +222,8 @@ margin-top: 24px;
   font-weight: bold;
   padding-left: 12px;
 }
+
+
 .footerline {
   grid-column: span 12;
   height: 24px;
